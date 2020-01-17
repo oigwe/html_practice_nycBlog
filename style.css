@@ -1,0 +1,212 @@
+body {
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #121212;
+    display: table;
+    width: 100%;
+}
+
+nav li {
+    display: table-cell;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+li h1 {
+    color: white;
+    text-align: left;
+    padding-left: 30px;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li a:hover {
+    background-color: white;
+    color: black;
+}
+
+h2 a {
+    /*padding: 33px 25px;*/
+    color: white;
+    text-decoration: none;
+}
+
+h2 a:hover {
+    background-color: #111;
+}
+
+.col-4 p {
+color: #a06f27
+}
+
+article p {
+    font-size: 14px;
+}
+
+
+main {
+    /*margin-top: 30px;*/
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.body_heading p {
+    margin-top: 0px;
+    color: #a06f27;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.body_heading h3 {
+
+}
+
+.p_heading_large {
+    font-size: 70px;
+    font-weight: 100;
+    position: relative;
+    margin-bottom: 0px;
+    
+}
+
+figcaption {
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    padding: 5%;
+    padding-right: 8%;
+    text-align: right;
+    color: white; 
+}
+
+article {
+    text-align: justify;
+    margin: auto auto;
+    max-width: 100%;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    /*position: relative;
+    right: 28px;
+    margin: auto 50%;
+    padding: auto auto;*/
+}
+
+aside {
+    left: 10px;
+    /*border: 3px solid black;*/
+    padding: 15px;
+    height: 500%;
+    max-width: 80%;
+    font-size: 15.5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+aside ol li {
+    margin: 0;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    bottom: -100px;
+    background-color: black;
+    color: white;
+    padding: 1.5%;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer p {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+}
+
+video {
+    display: block;
+    /*width: 420px;
+    height: 250px;*/
+    /*padding: 15px;*/
+}
+
+audio {
+    padding: 15px;
+    width: 98%;
+    box-sizing: border-box;
+}
+
+embed {
+    width: 400px;
+    height: 458px;
+    padding: 15px;
+}
+
+.card {
+    border: none;
+}
+
+.card-img-top {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+#media p {
+    /*left: 10px;*/
+    /*border: 3px solid black;*/
+    /*padding: 15px;*/
+    height: 500%;
+    max-width: 80%;
+    font-size: 15.5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.jumbotron{
+    position: relative;
+    z-index:-2;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #video-background { 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -1;
+    width:100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  
